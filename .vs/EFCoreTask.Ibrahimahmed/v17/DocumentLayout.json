@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Users\\Ibrahim\\Desktop\\Tasks\\EFCoreTask.Ibrahimahmed\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4A12CA-BD76-47DE-9AAF-C1988EC3274E}|EFCoreTask.Ibrahimahmed.csproj|e:\\users\\ibrahim\\desktop\\tasks\\efcoretask.ibrahimahmed\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E4A12CA-BD76-47DE-9AAF-C1988EC3274E}|EFCoreTask.Ibrahimahmed.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4A12CA-BD76-47DE-9AAF-C1988EC3274E}|EFCoreTask.Ibrahimahmed.csproj|e:\\users\\ibrahim\\desktop\\tasks\\efcoretask.ibrahimahmed\\datafilling\\recursion insertion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E4A12CA-BD76-47DE-9AAF-C1988EC3274E}|EFCoreTask.Ibrahimahmed.csproj|solutionrelative:datafilling\\recursion insertion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4A12CA-BD76-47DE-9AAF-C1988EC3274E}|EFCoreTask.Ibrahimahmed.csproj|e:\\users\\ibrahim\\desktop\\tasks\\efcoretask.ibrahimahmed\\datafilling\\generaterandomdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E4A12CA-BD76-47DE-9AAF-C1988EC3274E}|EFCoreTask.Ibrahimahmed.csproj|solutionrelative:datafilling\\generaterandomdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4A12CA-BD76-47DE-9AAF-C1988EC3274E}|EFCoreTask.Ibrahimahmed.csproj|e:\\users\\ibrahim\\desktop\\tasks\\efcoretask.ibrahimahmed\\accesslayer\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E4A12CA-BD76-47DE-9AAF-C1988EC3274E}|EFCoreTask.Ibrahimahmed.csproj|solutionrelative:accesslayer\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 307,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Recursion Insertion.cs",
+              "DocumentMoniker": "E:\\Users\\Ibrahim\\Desktop\\Tasks\\EFCoreTask.Ibrahimahmed\\DataFilling\\Recursion Insertion.cs",
+              "RelativeDocumentMoniker": "DataFilling\\Recursion Insertion.cs",
+              "ToolTip": "E:\\Users\\Ibrahim\\Desktop\\Tasks\\EFCoreTask.Ibrahimahmed\\DataFilling\\Recursion Insertion.cs",
+              "RelativeToolTip": "DataFilling\\Recursion Insertion.cs",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAAAIYAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T13:47:26.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GenerateRandomData.cs",
+              "DocumentMoniker": "E:\\Users\\Ibrahim\\Desktop\\Tasks\\EFCoreTask.Ibrahimahmed\\DataFilling\\GenerateRandomData.cs",
+              "RelativeDocumentMoniker": "DataFilling\\GenerateRandomData.cs",
+              "ToolTip": "E:\\Users\\Ibrahim\\Desktop\\Tasks\\EFCoreTask.Ibrahimahmed\\DataFilling\\GenerateRandomData.cs",
+              "RelativeToolTip": "DataFilling\\GenerateRandomData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T13:45:56.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DbContext.cs",
+              "DocumentMoniker": "E:\\Users\\Ibrahim\\Desktop\\Tasks\\EFCoreTask.Ibrahimahmed\\AccessLayer\\DbContext.cs",
+              "RelativeDocumentMoniker": "AccessLayer\\DbContext.cs",
+              "ToolTip": "E:\\Users\\Ibrahim\\Desktop\\Tasks\\EFCoreTask.Ibrahimahmed\\AccessLayer\\DbContext.cs",
+              "RelativeToolTip": "AccessLayer\\DbContext.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAmwB0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T14:06:28.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Users\\Ibrahim\\Desktop\\Tasks\\EFCoreTask.Ibrahimahmed\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\Users\\Ibrahim\\Desktop\\Tasks\\EFCoreTask.Ibrahimahmed\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T14:05:13.533Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 93,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
