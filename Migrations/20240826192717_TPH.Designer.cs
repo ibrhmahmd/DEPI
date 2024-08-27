@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EFCoreTask.Ibrahimahmed.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    [Migration("20240819221202_init")]
-    partial class init
+    [Migration("20240826192717_TPH")]
+    partial class TPH
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -38,6 +38,11 @@ namespace EFCoreTask.Ibrahimahmed.Migrations
                     b.Property<DateTime?>("CreatedOn")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
+                        .HasMaxLength(21)
+                        .HasColumnType("nvarchar(21)");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(50)
@@ -60,6 +65,10 @@ namespace EFCoreTask.Ibrahimahmed.Migrations
                     b.HasKey("EmployeeID");
 
                     b.ToTable("Employees");
+
+                    b.HasDiscriminator().HasValue("Employee");
+
+                    b.UseTphMappingStrategy();
                 });
 
             modelBuilder.Entity("EFCoreTask.Ibrahimahmed.Entity.Category", b =>
@@ -345,6 +354,29 @@ namespace EFCoreTask.Ibrahimahmed.Migrations
                     b.HasKey("SupplierID");
 
                     b.ToTable("Suppliers");
+                });
+
+            modelBuilder.Entity("EFCoreTask.Ibrahimahmed.ContractEmployee", b =>
+                {
+                    b.HasBaseType("EFCoreTask.Ibrahimahmed.Employee");
+
+                    b.Property<int>("HourlyPay")
+                        .HasColumnType("int");
+
+                    b.Property<int>("HourseWorked")
+                        .HasColumnType("int");
+
+                    b.HasDiscriminator().HasValue("ContractEmployee");
+                });
+
+            modelBuilder.Entity("EFCoreTask.Ibrahimahmed.PermenantEmployee", b =>
+                {
+                    b.HasBaseType("EFCoreTask.Ibrahimahmed.Employee");
+
+                    b.Property<int>("AnnualSalary")
+                        .HasColumnType("int");
+
+                    b.HasDiscriminator().HasValue("PermenantEmployee");
                 });
 
             modelBuilder.Entity("EFCoreTask.Ibrahimahmed.Entity.Order", b =>

@@ -4,6 +4,7 @@ using EFCoreTask.Ibrahimahmed.Entity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EFCoreTask.Ibrahimahmed.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    partial class MyDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240826192540_TPC")]
+    partial class TPC
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -21,54 +24,6 @@ namespace EFCoreTask.Ibrahimahmed.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
-
-            modelBuilder.Entity("City", b =>
-                {
-                    b.Property<Guid>("CityID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("CityName")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.Property<string>("CountryName")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.Property<float>("DeliveryCost")
-                        .HasColumnType("real");
-
-                    b.Property<string>("DeliveryZone")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.Property<string>("TimeZone")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("CityID");
-
-                    b.ToTable("Cities");
-                });
-
-            modelBuilder.Entity("CityWareHouse", b =>
-                {
-                    b.Property<Guid>("CitiesCityID")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid>("WareHousesWarehouseID")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.HasKey("CitiesCityID", "WareHousesWarehouseID");
-
-                    b.HasIndex("WareHousesWarehouseID");
-
-                    b.ToTable("CityWareHouse");
-                });
 
             modelBuilder.Entity("EFCoreTask.Ibrahimahmed.Employee", b =>
                 {
@@ -82,11 +37,6 @@ namespace EFCoreTask.Ibrahimahmed.Migrations
 
                     b.Property<DateTime?>("CreatedOn")
                         .HasColumnType("datetime2");
-
-                    b.Property<string>("Discriminator")
-                        .IsRequired()
-                        .HasMaxLength(21)
-                        .HasColumnType("nvarchar(21)");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -111,9 +61,7 @@ namespace EFCoreTask.Ibrahimahmed.Migrations
 
                     b.ToTable("Employees");
 
-                    b.HasDiscriminator().HasValue("Employee");
-
-                    b.UseTphMappingStrategy();
+                    b.UseTpcMappingStrategy();
                 });
 
             modelBuilder.Entity("EFCoreTask.Ibrahimahmed.Entity.Category", b =>
@@ -401,31 +349,6 @@ namespace EFCoreTask.Ibrahimahmed.Migrations
                     b.ToTable("Suppliers");
                 });
 
-            modelBuilder.Entity("EFCoreTask.Ibrahimahmed.WareHouse", b =>
-                {
-                    b.Property<Guid>("WarehouseID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("CountryName")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.Property<string>("TimeZone")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("WareHouseName")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.HasKey("WarehouseID");
-
-                    b.ToTable("WareHouses");
-                });
-
             modelBuilder.Entity("EFCoreTask.Ibrahimahmed.ContractEmployee", b =>
                 {
                     b.HasBaseType("EFCoreTask.Ibrahimahmed.Employee");
@@ -436,7 +359,7 @@ namespace EFCoreTask.Ibrahimahmed.Migrations
                     b.Property<int>("HourseWorked")
                         .HasColumnType("int");
 
-                    b.HasDiscriminator().HasValue("ContractEmployee");
+                    b.ToTable("ContractEmployees");
                 });
 
             modelBuilder.Entity("EFCoreTask.Ibrahimahmed.PermenantEmployee", b =>
@@ -446,22 +369,7 @@ namespace EFCoreTask.Ibrahimahmed.Migrations
                     b.Property<int>("AnnualSalary")
                         .HasColumnType("int");
 
-                    b.HasDiscriminator().HasValue("PermenantEmployee");
-                });
-
-            modelBuilder.Entity("CityWareHouse", b =>
-                {
-                    b.HasOne("City", null)
-                        .WithMany()
-                        .HasForeignKey("CitiesCityID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("EFCoreTask.Ibrahimahmed.WareHouse", null)
-                        .WithMany()
-                        .HasForeignKey("WareHousesWarehouseID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.ToTable("PermenantEmployees");
                 });
 
             modelBuilder.Entity("EFCoreTask.Ibrahimahmed.Entity.Order", b =>

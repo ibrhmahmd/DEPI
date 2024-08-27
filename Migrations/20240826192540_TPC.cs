@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
@@ -6,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace EFCoreTask.Ibrahimahmed.Migrations
 {
     /// <inheritdoc />
-    public partial class init : Migration
+    public partial class TPC : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -26,6 +27,26 @@ namespace EFCoreTask.Ibrahimahmed.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Categories", x => x.CategoryID);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "ContractEmployees",
+                columns: table => new
+                {
+                    EmployeeID = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    bio = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: true),
+                    joined = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    HourseWorked = table.Column<int>(type: "int", nullable: false),
+                    HourlyPay = table.Column<int>(type: "int", nullable: false),
+                    Name = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    CreatedOn = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    UpdatedOn = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    CreatedBy = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: true),
+                    UpdatedBy = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_ContractEmployees", x => x.EmployeeID);
                 });
 
             migrationBuilder.CreateTable(
@@ -62,6 +83,25 @@ namespace EFCoreTask.Ibrahimahmed.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Employees", x => x.EmployeeID);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "PermenantEmployees",
+                columns: table => new
+                {
+                    EmployeeID = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    bio = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: true),
+                    joined = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    AnnualSalary = table.Column<int>(type: "int", nullable: false),
+                    Name = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    CreatedOn = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    UpdatedOn = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    CreatedBy = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: true),
+                    UpdatedBy = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_PermenantEmployees", x => x.EmployeeID);
                 });
 
             migrationBuilder.CreateTable(
@@ -227,10 +267,16 @@ namespace EFCoreTask.Ibrahimahmed.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
+                name: "ContractEmployees");
+
+            migrationBuilder.DropTable(
                 name: "Employees");
 
             migrationBuilder.DropTable(
                 name: "OrderDetails");
+
+            migrationBuilder.DropTable(
+                name: "PermenantEmployees");
 
             migrationBuilder.DropTable(
                 name: "Orders");

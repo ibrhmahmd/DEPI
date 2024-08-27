@@ -15,12 +15,20 @@ namespace EFCoreTask.Ibrahimahmed
         [MaxLength(200)]
         public string? bio { get; set; }
         public DateTime joined { get; set; }
+        
+    }
 
+    // TPH 
+    // Table per hierarchy 
 
-        //public override string ToString()
-        //{
-        //    return $"ID: {ID}, First Name: {Name},  Bio: {bio}, Joined: {joined}";
-        //}
+    public class PermenantEmployee : Employee
+    {
+        public int AnnualSalary { get; set; }
+    }
+
+    public class ContractEmployee : Employee
+    {
+        public int  HourseWorked{ get; set; }
+        public int  HourlyPay{ get; set; }
     }
 }
-

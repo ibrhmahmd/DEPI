@@ -16,17 +16,25 @@ namespace EFCoreTask.Ibrahimahmed.Entity
 
         public DbSet<Product> Products { get; set; }
         public DbSet<Customer> Customers { get; set; }
-        public DbSet<Employee> Employees { get; set; }
         public DbSet<Shiper> Shipers { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Supplier> Suppliers { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderDetails> OrderDetails { get; set; }
+        //TPH
+        public DbSet<Employee> Employees { get; set; }
+        public DbSet<ContractEmployee> ContractEmployees{ get; set; }
+        public DbSet<PermenantEmployee> PermenantEmployees { get; set; }
+        //TPC
+        public DbSet<City> Cities { get; set; }
+        public DbSet<WareHouse> WareHouses { get; set; }
+
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<Employee>().UseTphMappingStrategy();
         }
 
         //public override int SaveChanges()

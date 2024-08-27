@@ -129,3 +129,4 @@ E:\Users\ibrahim\Desktop\Tasks\EFCoreTask.Ibrahimahmed\obj\Debug\net8.0\refint\E
 E:\Users\ibrahim\Desktop\Tasks\EFCoreTask.Ibrahimahmed\obj\Debug\net8.0\EFCoreTask.Ibrahimahmed.pdb
 E:\Users\ibrahim\Desktop\Tasks\EFCoreTask.Ibrahimahmed\obj\Debug\net8.0\EFCoreTask.Ibrahimahmed.genruntimeconfig.cache
 E:\Users\ibrahim\Desktop\Tasks\EFCoreTask.Ibrahimahmed\obj\Debug\net8.0\ref\EFCoreTask.Ibrahimahmed.dll
+E:\Users\ibrahim\Desktop\Tasks\EFCoreTask.Ibrahimahmed\obj\Debug\net8.0\EFCoreTask.Ibrahimahmed.sourcelink.json
