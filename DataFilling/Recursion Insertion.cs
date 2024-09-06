@@ -37,7 +37,7 @@ namespace EFCoreTask.Ibrahimahmed
 
         public static string InsertIntoSuppliers(int i)
         {
-
+ 
             if (i <= 0)
             {
                 return $"Done For {i} Rows";

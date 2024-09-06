@@ -13,7 +13,6 @@ namespace EFCoreTask.Ibrahimahmed.Entity
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
             => optionsBuilder.UseSqlServer("Data Source=IBRAHIM;Initial Catalog=\"EntityFramwork DB\";Integrated Security=True;Encrypt=False;Trust Server Certificate=True");
 
-
         public DbSet<Product> Products { get; set; }
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Shiper> Shipers { get; set; }
@@ -30,12 +29,21 @@ namespace EFCoreTask.Ibrahimahmed.Entity
         public DbSet<WareHouse> WareHouses { get; set; }
 
 
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+            
             modelBuilder.Entity<Employee>().UseTphMappingStrategy();
+            
+            modelBuilder.ApplyConfiguration(new ProductConfiguration());
         }
+
+
+
+
+
+
+
 
         //public override int SaveChanges()
         //{

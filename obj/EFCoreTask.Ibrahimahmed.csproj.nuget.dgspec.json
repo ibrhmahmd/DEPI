@@ -11,7 +11,7 @@
         "projectName": "EFCoreTask.Ibrahimahmed",
         "projectPath": "E:\\Users\\Ibrahim\\Desktop\\Tasks\\EFCoreTask.Ibrahimahmed\\EFCoreTask.Ibrahimahmed.csproj",
         "packagesPath": "C:\\Users\\ibrahim\\.nuget\\packages\\",
-        "outputPath": "E:\\Users\\Ibrahim\\Desktop\\Tasks\\EFCoreTask.Ibrahimahmed\\obj\\",
+        "outputPath": "E:\\Users\\ibrahim\\Desktop\\Tasks\\EFCoreTask.Ibrahimahmed\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ibrahim\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,6 +46,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Bogus": {
+              "target": "Package",
+              "version": "[35.6.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.8, )"
@@ -77,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,17 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EFCoreTask.Ibrahimahmed.Entity
 {
     public class Product : BaseEntity<long>
     {
-
         [Key]
         public Guid ProductID { get; set; } = Guid.NewGuid();
 
@@ -21,23 +15,34 @@ namespace EFCoreTask.Ibrahimahmed.Entity
         public Guid? CategoryID { get; set; }
         public Category Category { get; set; }
 
-
         public double Price { get; set; }
 
-
         public List<OrderDetails> OrderDetails { get; set; } = new List<OrderDetails>();
+    }
 
 
-
-
-        public void Configure(EntityTypeBuilder<Product> entityTypeBuilder)
+    public class ProductConfiguration : IEntityTypeConfiguration<Product>
+    {
+        public void Configure(EntityTypeBuilder<Product> builder)
         {
-            //entityTypeBuilder.HasKey(c => c.ID);
+            // Configure primary key
+            builder.HasKey(p => p.ProductID);
 
-            entityTypeBuilder.HasOne(x => x.Category).WithMany(p => p.Products).HasForeignKey(s => s.CategoryID).OnDelete(DeleteBehavior.SetNull);
-            entityTypeBuilder.HasMany(x => x.OrderDetails).WithOne(x => x.Product).HasForeignKey(x => x.ProductID).OnDelete(DeleteBehavior.SetNull);
-            entityTypeBuilder.HasOne(x => x.Supplier).WithMany(x => x.Products).HasForeignKey(x => x.SupplierID).OnDelete(DeleteBehavior.SetNull);
+            // Configure relationships
+            builder.HasOne(p => p.Category)
+                   .WithMany(c => c.Products)
+                   .HasForeignKey(p => p.CategoryID)
+                   .OnDelete(DeleteBehavior.SetNull);
 
+            builder.HasMany(p => p.OrderDetails)
+                   .WithOne(od => od.Product)
+                   .HasForeignKey(od => od.ProductID)
+                   .OnDelete(DeleteBehavior.SetNull);
+
+            builder.HasOne(p => p.Supplier)
+                   .WithMany(s => s.Products)
+                   .HasForeignKey(p => p.SupplierID)
+                   .OnDelete(DeleteBehavior.SetNull);
         }
     }
 }

@@ -6,6 +6,7 @@ E:\Users\ibrahim\Desktop\Tasks\EFCoreTask.Ibrahimahmed\bin\Debug\net8.0\EFCoreTa
 E:\Users\ibrahim\Desktop\Tasks\EFCoreTask.Ibrahimahmed\bin\Debug\net8.0\EFCoreTask.Ibrahimahmed.pdb
 E:\Users\ibrahim\Desktop\Tasks\EFCoreTask.Ibrahimahmed\bin\Debug\net8.0\Azure.Core.dll
 E:\Users\ibrahim\Desktop\Tasks\EFCoreTask.Ibrahimahmed\bin\Debug\net8.0\Azure.Identity.dll
+E:\Users\ibrahim\Desktop\Tasks\EFCoreTask.Ibrahimahmed\bin\Debug\net8.0\Bogus.dll
 E:\Users\ibrahim\Desktop\Tasks\EFCoreTask.Ibrahimahmed\bin\Debug\net8.0\Humanizer.dll
 E:\Users\ibrahim\Desktop\Tasks\EFCoreTask.Ibrahimahmed\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 E:\Users\ibrahim\Desktop\Tasks\EFCoreTask.Ibrahimahmed\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
@@ -123,10 +124,10 @@ E:\Users\ibrahim\Desktop\Tasks\EFCoreTask.Ibrahimahmed\obj\Debug\net8.0\EFCoreTa
 E:\Users\ibrahim\Desktop\Tasks\EFCoreTask.Ibrahimahmed\obj\Debug\net8.0\EFCoreTask.Ibrahimahmed.AssemblyInfoInputs.cache
 E:\Users\ibrahim\Desktop\Tasks\EFCoreTask.Ibrahimahmed\obj\Debug\net8.0\EFCoreTask.Ibrahimahmed.AssemblyInfo.cs
 E:\Users\ibrahim\Desktop\Tasks\EFCoreTask.Ibrahimahmed\obj\Debug\net8.0\EFCoreTask.Ibrahimahmed.csproj.CoreCompileInputs.cache
+E:\Users\ibrahim\Desktop\Tasks\EFCoreTask.Ibrahimahmed\obj\Debug\net8.0\EFCoreTask.Ibrahimahmed.sourcelink.json
 E:\Users\ibrahim\Desktop\Tasks\EFCoreTask.Ibrahimahmed\obj\Debug\net8.0\EFCoreTa.CBD59D27.Up2Date
 E:\Users\ibrahim\Desktop\Tasks\EFCoreTask.Ibrahimahmed\obj\Debug\net8.0\EFCoreTask.Ibrahimahmed.dll
 E:\Users\ibrahim\Desktop\Tasks\EFCoreTask.Ibrahimahmed\obj\Debug\net8.0\refint\EFCoreTask.Ibrahimahmed.dll
 E:\Users\ibrahim\Desktop\Tasks\EFCoreTask.Ibrahimahmed\obj\Debug\net8.0\EFCoreTask.Ibrahimahmed.pdb
 E:\Users\ibrahim\Desktop\Tasks\EFCoreTask.Ibrahimahmed\obj\Debug\net8.0\EFCoreTask.Ibrahimahmed.genruntimeconfig.cache
 E:\Users\ibrahim\Desktop\Tasks\EFCoreTask.Ibrahimahmed\obj\Debug\net8.0\ref\EFCoreTask.Ibrahimahmed.dll
-E:\Users\ibrahim\Desktop\Tasks\EFCoreTask.Ibrahimahmed\obj\Debug\net8.0\EFCoreTask.Ibrahimahmed.sourcelink.json

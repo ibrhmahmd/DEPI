@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EFCoreTask.Ibrahimahmed")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0444039ac15470e4fc10966b69daebafca917e2e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1d9b92624872fb1a09b4cb20700dbb1de8e190c")]
 [assembly: System.Reflection.AssemblyProductAttribute("EFCoreTask.Ibrahimahmed")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EFCoreTask.Ibrahimahmed")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

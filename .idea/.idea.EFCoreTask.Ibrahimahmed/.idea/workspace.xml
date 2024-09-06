@@ -6,7 +6,42 @@
   <component name="ChangeListManager">
     <list default="true" id="3718d671-74e6-4cde-9daf-62857ca27bd8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EFCoreTask.Ibrahimahmed/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EFCoreTask.Ibrahimahmed/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/EFCoreTask.Ibrahimahmed/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/EFCoreTask.Ibrahimahmed/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/EFCoreTask.Ibrahimahmed/FileContentIndex/6747c768-1e05-4e38-9e4f-ccafbcba5ccf.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/EFCoreTask.Ibrahimahmed/FileContentIndex/9403c2ad-da1e-4bcd-ac5c-6418f5bcfb0d.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/EFCoreTask.Ibrahimahmed/FileContentIndex/9ab5c107-f865-441a-b24c-a2054222df55.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/EFCoreTask.Ibrahimahmed/FileContentIndex/a255ee87-be7d-449c-9b39-79fd6e290f7f.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/EFCoreTask.Ibrahimahmed/FileContentIndex/ffdc84c5-f848-417b-9d81-a1e13fa137c8.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/EFCoreTask.Ibrahimahmed/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/EFCoreTask.Ibrahimahmed/v17/.futdcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/EFCoreTask.Ibrahimahmed/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/EFCoreTask.Ibrahimahmed/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/EFCoreTask.Ibrahimahmed/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/EFCoreTask.Ibrahimahmed/v17/DocumentLayout.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/efcoretask.ibrahimahmed.metadata.v8.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/efcoretask.ibrahimahmed.metadata.v8.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/efcoretask.ibrahimahmed.projects.v8.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/efcoretask.ibrahimahmed.projects.v8.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/efcoretask.ibrahimahmed.strings.v8.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/efcoretask.ibrahimahmed.strings.v8.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataFilling/Recursion Insertion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataFilling/Recursion Insertion.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EFCoreTask.Ibrahimahmed.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/EFCoreTask.Ibrahimahmed.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/EFCoreTask.Ibrahimahmed.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/EFCoreTask.Ibrahimahmed.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/EFCoreTask.Ibrahimahmed.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/EFCoreTask.Ibrahimahmed.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/EFCoreTask.Ibrahimahmed.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/EFCoreTask.Ibrahimahmed.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/EFCoreTask.Ibrahimahmed.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/EFCoreTask.Ibrahimahmed.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/EFCoreTask.Ibrahimahmed.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/EFCoreTask.Ibrahimahmed.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/EFCoreTask.Ibrahimahmed.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/EFCoreTask.Ibrahimahmed.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/EFCoreTask.Ibrahimahmed.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/EFCoreTask.Ibrahimahmed.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/EFCoreTask.Ibrahimahmed.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/EFCoreTask.Ibrahimahmed.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/EFCoreTask.Ibrahimahmed.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/EFCoreTask.Ibrahimahmed.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/EFCoreTask.Ibrahimahmed.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/EFCoreTask.Ibrahimahmed.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/EFCoreTask.Ibrahimahmed.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/EFCoreTask.Ibrahimahmed.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/EFCoreTask.Ibrahimahmed.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/EFCoreTask.Ibrahimahmed.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/EFCoreTask.Ibrahimahmed.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/EFCoreTask.Ibrahimahmed.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/EFCoreTask.Ibrahimahmed.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/EFCoreTask.Ibrahimahmed.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/ref/EFCoreTask.Ibrahimahmed.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/ref/EFCoreTask.Ibrahimahmed.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/refint/EFCoreTask.Ibrahimahmed.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/refint/EFCoreTask.Ibrahimahmed.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/EFCoreTask.Ibrahimahmed.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/EFCoreTask.Ibrahimahmed.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +96,8 @@
       <option name="presentableId" value="Default" />
       <updated>1724202740465</updated>
       <workItem from="1724202763975" duration="471000" />
+      <workItem from="1724726046787" duration="278000" />
+      <workItem from="1724765911496" duration="1870000" />
     </task>
     <servers />
   </component>
@@ -74,7 +111,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

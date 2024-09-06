@@ -46,6 +46,19 @@
           }
         }
       },
+      "Bogus/35.6.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Bogus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Bogus.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -1546,6 +1559,25 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "Bogus/35.6.0": {
+      "sha512": "WiK99a8LedzzG7QbnJ1OZT02WZHjr8V6L+cmGJbuga7TtI+Whd+KFWNmVPtXKACFNjz2c/FIR6QDNJsHD6Eazg==",
+      "type": "package",
+      "path": "bogus/35.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bogus.35.6.0.nupkg.sha512",
+        "bogus.nuspec",
+        "lib/net40/Bogus.dll",
+        "lib/net40/Bogus.xml",
+        "lib/net6.0/Bogus.dll",
+        "lib/net6.0/Bogus.xml",
+        "lib/netstandard1.3/Bogus.dll",
+        "lib/netstandard1.3/Bogus.xml",
+        "lib/netstandard2.0/Bogus.dll",
+        "lib/netstandard2.0/Bogus.xml"
       ]
     },
     "Humanizer.Core/2.14.1": {
@@ -4100,6 +4132,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Bogus >= 35.6.0",
       "Microsoft.EntityFrameworkCore >= 8.0.8",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.8",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.8"
@@ -4111,11 +4144,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Users\\ibrahim\\Desktop\\Tasks\\EFCoreTask.Ibrahimahmed\\EFCoreTask.Ibrahimahmed.csproj",
+      "projectUniqueName": "E:\\Users\\Ibrahim\\Desktop\\Tasks\\EFCoreTask.Ibrahimahmed\\EFCoreTask.Ibrahimahmed.csproj",
       "projectName": "EFCoreTask.Ibrahimahmed",
-      "projectPath": "E:\\Users\\ibrahim\\Desktop\\Tasks\\EFCoreTask.Ibrahimahmed\\EFCoreTask.Ibrahimahmed.csproj",
+      "projectPath": "E:\\Users\\Ibrahim\\Desktop\\Tasks\\EFCoreTask.Ibrahimahmed\\EFCoreTask.Ibrahimahmed.csproj",
       "packagesPath": "C:\\Users\\ibrahim\\.nuget\\packages\\",
-      "outputPath": "E:\\Users\\ibrahim\\Desktop\\Tasks\\EFCoreTask.Ibrahimahmed\\obj\\",
+      "outputPath": "E:\\Users\\Ibrahim\\Desktop\\Tasks\\EFCoreTask.Ibrahimahmed\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ibrahim\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4150,6 +4183,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "Bogus": {
+            "target": "Package",
+            "version": "[35.6.0, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[8.0.8, )"
@@ -4181,7 +4218,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
