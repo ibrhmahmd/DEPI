@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jpmNDmSGg8g=",
+  "dgSpecHash": "Dme7zr9JoN0=",
   "success": true,
-  "projectFilePath": "E:\\Users\\Ibrahim\\Desktop\\Tasks\\EFCoreTask.Ibrahimahmed\\EFCoreTask.Ibrahimahmed.csproj",
+  "projectFilePath": "E:\\Users\\ibrahim\\Desktop\\Tasks\\EFCoreTask.Ibrahimahmed\\EFCoreTask.Ibrahimahmed.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ibrahim\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ibrahim\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

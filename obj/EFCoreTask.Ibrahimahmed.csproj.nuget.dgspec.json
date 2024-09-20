@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Users\\Ibrahim\\Desktop\\Tasks\\EFCoreTask.Ibrahimahmed\\EFCoreTask.Ibrahimahmed.csproj": {}
+    "E:\\Users\\ibrahim\\Desktop\\Tasks\\EFCoreTask.Ibrahimahmed\\EFCoreTask.Ibrahimahmed.csproj": {}
   },
   "projects": {
-    "E:\\Users\\Ibrahim\\Desktop\\Tasks\\EFCoreTask.Ibrahimahmed\\EFCoreTask.Ibrahimahmed.csproj": {
+    "E:\\Users\\ibrahim\\Desktop\\Tasks\\EFCoreTask.Ibrahimahmed\\EFCoreTask.Ibrahimahmed.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Users\\Ibrahim\\Desktop\\Tasks\\EFCoreTask.Ibrahimahmed\\EFCoreTask.Ibrahimahmed.csproj",
+        "projectUniqueName": "E:\\Users\\ibrahim\\Desktop\\Tasks\\EFCoreTask.Ibrahimahmed\\EFCoreTask.Ibrahimahmed.csproj",
         "projectName": "EFCoreTask.Ibrahimahmed",
-        "projectPath": "E:\\Users\\Ibrahim\\Desktop\\Tasks\\EFCoreTask.Ibrahimahmed\\EFCoreTask.Ibrahimahmed.csproj",
+        "projectPath": "E:\\Users\\ibrahim\\Desktop\\Tasks\\EFCoreTask.Ibrahimahmed\\EFCoreTask.Ibrahimahmed.csproj",
         "packagesPath": "C:\\Users\\ibrahim\\.nuget\\packages\\",
         "outputPath": "E:\\Users\\ibrahim\\Desktop\\Tasks\\EFCoreTask.Ibrahimahmed\\obj\\",
         "projectStyle": "PackageReference",

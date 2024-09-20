@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "E:\\Users\\Ibrahim\\Desktop\\Tasks\\EFCoreTask.Ibrahimahmed\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5AA8DD09-8F16-4C9D-9A89-7F705D040042}|..\\API Demo\\API Demo.csproj|e:\\users\\ibrahim\\desktop\\tasks\\api demo\\api demo.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5AA8DD09-8F16-4C9D-9A89-7F705D040042}|..\\API Demo\\API Demo.csproj|e:\\users\\ibrahim\\desktop\\tasks\\api demo\\controllers\\shiperscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5AA8DD09-8F16-4C9D-9A89-7F705D040042}|..\\API Demo\\API Demo.csproj|e:\\users\\ibrahim\\desktop\\tasks\\api demo\\controllers\\supplierscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9E4A12CA-BD76-47DE-9AAF-C1988EC3274E}|EFCoreTask.Ibrahimahmed.csproj|e:\\users\\ibrahim\\desktop\\tasks\\efcoretask.ibrahimahmed\\accesslayer\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E4A12CA-BD76-47DE-9AAF-C1988EC3274E}|EFCoreTask.Ibrahimahmed.csproj|solutionrelative:accesslayer\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5AA8DD09-8F16-4C9D-9A89-7F705D040042}|..\\API Demo\\API Demo.csproj|e:\\users\\ibrahim\\desktop\\tasks\\api demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AA8DD09-8F16-4C9D-9A89-7F705D040042}|..\\API Demo\\API Demo.csproj|e:\\users\\ibrahim\\desktop\\tasks\\api demo\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AA8DD09-8F16-4C9D-9A89-7F705D040042}|..\\API Demo\\API Demo.csproj|e:\\users\\ibrahim\\desktop\\tasks\\api demo\\api demo.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AA8DD09-8F16-4C9D-9A89-7F705D040042}|..\\API Demo\\API Demo.csproj|e:\\users\\ibrahim\\desktop\\tasks\\api demo\\controllers\\supplierscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 307,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "API Demo.http",
               "DocumentMoniker": "E:\\Users\\Ibrahim\\Desktop\\Tasks\\API Demo\\API Demo.http",
               "RelativeDocumentMoniker": "..\\API Demo\\API Demo.http",
@@ -39,8 +39,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
               "WhenOpened": "2024-09-03T01:51:42.769Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -67,32 +66,37 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ShipersController.cs",
-              "DocumentMoniker": "E:\\Users\\Ibrahim\\Desktop\\Tasks\\API Demo\\Controllers\\ShipersController.cs",
-              "RelativeDocumentMoniker": "..\\API Demo\\Controllers\\ShipersController.cs",
-              "ToolTip": "E:\\Users\\Ibrahim\\Desktop\\Tasks\\API Demo\\Controllers\\ShipersController.cs",
-              "RelativeToolTip": "..\\API Demo\\Controllers\\ShipersController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T18:26:13.16Z"
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "E:\\Users\\Ibrahim\\Desktop\\Tasks\\API Demo\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "..\\API Demo\\Controllers\\CategoryController.cs",
+              "ToolTip": "E:\\Users\\Ibrahim\\Desktop\\Tasks\\API Demo\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "..\\API Demo\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T07:52:48.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "DbContext.cs",
               "DocumentMoniker": "E:\\Users\\Ibrahim\\Desktop\\Tasks\\EFCoreTask.Ibrahimahmed\\AccessLayer\\DbContext.cs",
               "RelativeDocumentMoniker": "AccessLayer\\DbContext.cs",
               "ToolTip": "E:\\Users\\Ibrahim\\Desktop\\Tasks\\EFCoreTask.Ibrahimahmed\\AccessLayer\\DbContext.cs",
               "RelativeToolTip": "AccessLayer\\DbContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T17:20:44.605Z"
+              "WhenOpened": "2024-09-03T17:20:44.605Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "SuppliersController.cs",
               "DocumentMoniker": "E:\\Users\\Ibrahim\\Desktop\\Tasks\\API Demo\\Controllers\\SuppliersController.cs",
               "RelativeDocumentMoniker": "..\\API Demo\\Controllers\\SuppliersController.cs",
@@ -104,15 +108,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Users\\Ibrahim\\Desktop\\Tasks\\API Demo\\Program.cs",
               "RelativeDocumentMoniker": "..\\API Demo\\Program.cs",
               "ToolTip": "E:\\Users\\Ibrahim\\Desktop\\Tasks\\API Demo\\Program.cs",
               "RelativeToolTip": "..\\API Demo\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T04:25:21.439Z"
+              "WhenOpened": "2024-09-03T04:25:21.439Z",
+              "EditorCaption": ""
             }
           ]
         },

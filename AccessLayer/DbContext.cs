@@ -24,7 +24,7 @@ namespace EFCoreTask.Ibrahimahmed.Entity
         public DbSet<Employee> Employees { get; set; }
         public DbSet<ContractEmployee> ContractEmployees{ get; set; }
         public DbSet<PermenantEmployee> PermenantEmployees { get; set; }
-        //TPC
+        //TP
         public DbSet<City> Cities { get; set; }
         public DbSet<WareHouse> WareHouses { get; set; }
 
