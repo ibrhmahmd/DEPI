@@ -28,7 +28,7 @@ namespace EFCoreTask.Ibrahimahmed.Entity
         public DbSet<City> Cities { get; set; }
         public DbSet<WareHouse> WareHouses { get; set; }
 
-
+        // mariam commit 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
